@@ -690,7 +690,7 @@ body {
 
 
 /*  GALERIA */
-.galeria {
+/* .galeria {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -699,7 +699,7 @@ body {
 .miniatura {
   margin: 10px;
   cursor: pointer;
-}
+} */
 
 .miniatura img {
   width: 150px;
