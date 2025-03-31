@@ -151,3 +151,26 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+
+
+function abrirModal(src) {
+  var modal = document.getElementById("modal");
+  var imagenGrande = document.getElementById("imagenGrande");
+  imagenGrande.src = src;
+  modal.style.display = "block";
+}
+
+// Función para cerrar el modal
+function cerrarModal() {
+  var modal = document.getElementById("modal");
+  modal.style.display = "none";
+}
+
+// Cerrar el modal al hacer clic fuera de la imagen
+window.onclick = function(event) {
+  var modal = document.getElementById("modal");
+  if (event.target == modal) {
+      modal.style.display = "none";
+  }
+}

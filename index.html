@@ -196,6 +196,35 @@
     <h2 class="text-center display-3 pt-4 pb-5 mb-0 text-barlow titulo-animado container">
       Galería
     </h2>
+
+
+    <div class="galeria">
+      <div class="miniatura">
+          <img src="./assets/img/galeria/evaluacion.jpg" alt="Imagen 1" onclick="abrirModal('./assets/img/galeria/evaluacion.jpg')">
+      </div>
+      <div class="miniatura">
+          <img src="./assets/img/galeria/evaluacion2.jpg" alt="Imagen 2" onclick="abrirModal('./assets/img/galeria/evaluacion2.jpg')">
+      </div>
+      <div class="miniatura">
+          <img src="./assets/img/galeria/evaluacion3.jpg" alt="Imagen 3" onclick="abrirModal('./assets/img/galeria/evaluacion3.jpg')">
+      </div>
+      <div class="miniatura">
+          <img src="./assets/img/galeria/evaluacion4.jpg" alt="Imagen 3" onclick="abrirModal('./assets/img/galeria/evaluacion4.jpg')">
+      </div>
+      <div class="miniatura">
+        <img src="./assets/img/galeria/lentes6.jpg" alt="Imagen 3" onclick="abrirModal('./assets/img/galeria/lentes6.jpg')">
+      </div>
+      <div class="miniatura">
+        <img src="./assets/img/galeria/lentes7.jpg" alt="Imagen 3" onclick="abrirModal('./assets/img/galeria/lentes7.jpg')">
+      </div>
+  </div>
+
+  <div id="modal" class="modal">
+      <div class="modal-contenido">
+          <img id="imagenGrande" src="" alt="Imagen Grande">
+          <span class="cerrar" onclick="cerrarModal()">&times;</span>
+      </div>
+  </div>
    <!--  <div class="row d-flex justify-content-center align-items-center pb-5 g-5">
       <div class="navbar-brand logoanimacion aparicion d-flex justify-content-center col-12 col-md-7">
         <img src="./assets/img/jr.jpg" class="circular-image " rounded-circle" alt="Bootstrap" >
