@@ -32,8 +32,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #28c5a6;
-  opacity: 0.2; /* Ajusta la opacidad para el efecto deseado */
+  background-color: #000706;
+  opacity: 0.5; /* Ajusta la opacidad para el efecto deseado */
 
   pointer-events: none; /* Permite interactuar con los elementos debajo */
 }
@@ -116,9 +116,10 @@
 .div-con-imagen3 {
   position: relative;
   width: 100%;
-  background-image: url('../img/serv.jpg');
+  background-image: url('../img/galeria/lentes3.jpg');
   background-size: cover;
   background-position: center;
+  border-top: 3px solid #28c5a6; /* Grosor, estilo y color */
 }
 
 .div-con-imagen3::before {
@@ -129,7 +130,7 @@
   width: 100%;
   height: 100%;
   background-color: #f7fcf7;
-  opacity: 0.5; /* Ajusta la opacidad para el efecto deseado */
+  opacity: 0.6; /* Ajusta la opacidad para el efecto deseado */
 
   pointer-events: none; /* Permite interactuar con los elementos debajo */
 }
@@ -286,25 +287,25 @@
 /* Botón Servicios */
 .carousel-buttons .btn-primary {
   background-color: transparent;
-  border: 2px solid #3150a0;
+  border: 2px solid #000000;
   border-radius: 10px; /* Esquinas redondeadas */
   color: white;
 }
 
 .carousel-buttons .btn-primary:hover {
-  background-color: #3150a0;
+  background-color: #0000008c;
 }
 
 /* Botón Planes */
 .carousel-buttons .btn-secondary {
   background-color: transparent;
-  border: 2px solid #c8b046;
+  border: 2px solid #28c5a6;
   border-radius: 10px; /* Esquinas redondeadas */
   color: white;
 }
 
 .carousel-buttons .btn-secondary:hover {
-  background-color: #c8b046;
+  background-color: #28c5a69d;
 }
 
 /* Si fuese necesario, asegúrate de que la imagen y su pseudo-elemento no interfieran */
@@ -688,8 +689,29 @@ body {
 }
 
 
+.servinc {
+  position: relative;
+  top: -50%;
+  transform: translateY(-50%);
+  margin-left: 27%;
+  margin-right: 27%;
+}
+
+
+.text-pc {
+  margin-bottom: 100px;
+}
+
+.text-pc2 {
+  margin-bottom: 80px;
+  font-size: 1.5rem;
+
+}
+
+
 
 /*  GALERIA */
+
 /* .galeria {
   display: flex;
   flex-wrap: wrap;
@@ -702,8 +724,8 @@ body {
 } */
 
 .miniatura img {
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  
   object-fit: cover;
 }
 
